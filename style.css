@@ -1,0 +1,547 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+
+}
+header{
+    background: #000;
+    height: 85vh;
+    margin-bottom: 0px;
+   
+}
+#nav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#hleft{
+    color: #eb0d27;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 25px ;
+    width: 40vw; 
+    padding-left: 10px; 
+    transition: all o.5s linear;  
+}
+#hleft:hover{
+    color: aliceblue;
+}
+#hright{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    margin-top:25px ;
+}
+#hright a {
+    text-decoration: none;
+    color: aliceblue;
+    z-index: 100;
+    transition: all 0.5s linear;
+}
+#hright a:hover{
+    color:#eb0d27;
+}
+#main h1{
+     color:aliceblue;
+    
+}
+#main h3{
+    color:aliceblue;
+   
+}
+#main h1{
+     color:aliceblue;
+    
+}
+#main p{
+    color: aliceblue;
+    width: 40vw;
+    height: 200px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    line-height: 30px;
+
+}
+#main span{ color: #eb0d27;}
+#main{
+    display: flex;
+    flex-direction: row;
+    width: 70vw; 
+    padding-left: 60px;
+    margin: 25PX;
+    margin-bottom: 0%;
+    padding-top: 50px;  
+}
+#button{
+    display: flex;
+    width: 50vw;
+    margin-bottom: 0%;
+}
+#button a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #eb0d27;
+    color: aliceblue;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 8px;
+    transition: all 0.5s linear ;
+}
+#button a:hover{
+    background-color: aliceblue;
+    color:#eb0d27;
+}
+#mainright  img{
+    position: absolute;
+    top: 20px;
+    overflow: hidden;
+    height: 620px;
+    margin-bottom: 0%;
+}
+.about{
+    width: 1450x;
+    height:657px;
+    margin: auto;
+    background-color:bisque;
+    margin: 0px;
+}
+.about h1 { 
+    color:black;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+#aboutcont{
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    
+}
+#aboutleft{
+    width: 35%;
+    justify-content: end;
+    padding: 3%;
+}
+#aboutleft img {
+    height:400px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 20px 20px black;
+    margin-top: 100px;
+    margin: 20px;
+}
+#aboutright{
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    width: 40%;
+    
+}
+
+#aboutright span{
+    color: #eb0d27;
+}
+#aboutright p{
+    width:600px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    
+}
+#aboutright article{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 580px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+#aboutright table th{
+    text-align: start;
+}
+#aboutright table a{
+    text-decoration: none;
+    color: black;
+}
+#social{
+    margin-top: 30px;
+    text-align: start;
+    color:black;
+}
+#links{
+    width:50% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#links a{
+    text-decoration: none;
+    color: #eb0d27;
+    background: black;
+    height: 50px;
+    width:50px;
+    padding: 18px;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+}
+#links a:hover{
+    background:white;
+}
+.skills{
+    width: 1450x;
+    height:657px;
+    background-color: #000;
+    color: aliceblue;
+}
+.skills h1{
+    color:#eb0d27;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom:0px
+}
+.skills p{
+    color:aliceblue;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;  
+    margin-bottom: 20px; 
+}
+.maincont{
+    display: flex;
+    justify-content:space-around;
+
+}
+.skills .leftcont{
+    display: flex;
+    flex-direction:column;
+    margin-top: 50px;
+    width: 30%;
+    
+}
+.skills .leftcont p{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 40%;
+    background-color: #000;
+    margin: 0 15px;
+    padding: 10px 20px;
+
+}
+.container.skill-box{
+    width:100%;
+}
+.skill-box .title{
+    display:block;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    
+}
+.skill-box .skill-bar{
+    width: 500px;
+    height: 5px;
+    background: aliceblue;
+    border-radius: 10px;
+}
+.skill-bar .skill-per {
+    width: 425px;
+    height: 5px;
+    background: #eb0d27;
+    border-radius: 10px;
+}
+.skill-bar .skill-per-css{
+    width: 425px;
+    height: 5px;
+    background: #eb0d27;
+    border-radius: 10px;
+}
+.skill-bar .skill-per-js{
+    width: 300px;
+    height: 5px;
+    background: #eb0d27;
+    border-radius: 10px;
+}
+.skill-bar .skill-per-wp{
+    width: 350px;
+    height: 5px;
+    background: #eb0d27;
+    border-radius: 10px;
+}
+.rightcont{
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    margin-top: 50px;
+    width: 30%;
+}
+.rightcont p{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 40%;
+    background-color: #000;
+    margin: 0 15px;
+    padding: 10px 20px;
+
+}
+.container.skill-box{
+    width:100%;
+}
+.skill-box .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    
+}
+.skill-box .skill-bar{
+    width: 500px;
+    height: 5px;
+    background: aliceblue;
+    border-radius: 10px;
+}
+.skill-bar .skill-per-creativity {
+    width: 475px;
+    height: 5px;
+    background: #eb0d27;
+    border-radius: 10px;
+}
+.skill-bar .skill-per-comm{
+    width: 450px;
+    height: 5px;
+    background: #eb0d27;
+    border-radius: 10px;
+}
+.skill-bar .skill-per-adapt{
+    width: 425px;
+    height: 5px;
+    background: #eb0d27;
+    border-radius: 10px;
+}
+.skill-bar .skill-per-tw{
+    width: 475px;
+    height: 5px;
+    background: #eb0d27;
+    border-radius: 10px;
+}
+.work{
+    width: 1450x;
+    height:657px;
+    background-color:bisque;
+    color: black;
+}
+.work h1{
+    color:black;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom:0px
+}
+.work p{
+    color:#eb0d27;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;  
+    margin-bottom: 20px; 
+}
+.mainwork{
+    display: flex;
+    justify-content: space-around;
+}
+.leftwork{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 35%;
+    margin-top: 20px;
+    }
+.leftwork h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+}
+.leftwork span {
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+strong{
+    color: #eb0d27;
+}
+#leftworkskill{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin:20px;
+    margin-top: 40px;
+}
+
+ #leftworkskill article{
+    font-weight: 600;
+    height: 30px;
+    width:70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px black;
+    background-color: #eb0d27;
+    color: #000;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+
+.leftwork a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: aliceblue;
+    color: #eb0d27;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.leftwork a:hover{
+    background-color: #eb0d27;
+    color:aliceblue;
+}
+.rightwork{
+    width: 35%;
+    margin-top: 20px;
+
+}
+.rightwork img{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+    margin-bottom: 10px;
+}
+.contact{
+    width: 1450x;
+    height:657px;
+    background-color:black;
+    color: white;  
+}
+.contact h1{
+    color:#eb0d27;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom:0px  
+}
+.contmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#contleft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: start;
+    margin: 80px;
+}
+#contleft h1{
+    color: aliceblue;
+
+}
+#contleft p{
+    font-weight: 600;
+}
+#contleft a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+#contleftlogo {
+    width:50% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#contleftlogo a{
+    text-decoration: none;
+    color: #eb0d27;
+    background: black;
+    height: 50px;
+    width:50px;
+    padding: 18px;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+}
+#contleftlogo a:hover{
+    background:white;
+}
+#contright{
+    display: flex;
+    flex-direction: column;
+    row-gap: 57px;
+    justify-content: start;
+    margin: 110px;
+    color: #000;
+}
+input{
+    height: 50px;
+    width: 388px;
+}
+#submit{
+    background-color: aliceblue;
+    color: #eb0d27;
+}
+#submit:hover{
+    background-color: #eb0d27;
+    color: aliceblue;
+}
+#footer{
+    width: 1450x;
+    height: 50px;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+#footer p{
+    font-weight: 600; 
+}
